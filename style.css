@@ -597,6 +597,11 @@ body {
 }
 
 @media (max-width: 800px) {
+  body {
+    align-items: flex-start;
+    padding-top: 32px;
+  }
+
   .card {
     grid-template-columns: minmax(0, 1fr);
     aspect-ratio: 10 / 16;
